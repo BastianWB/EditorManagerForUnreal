@@ -25,7 +25,8 @@ public class EditorManager : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
+				"Core", 
+				"Blutility",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
