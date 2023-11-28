@@ -17,7 +17,7 @@ class EDITORMANAGER_API USwiftAssetAction : public UAssetActionUtility
 public:
 	//Need to create a BP class based on SwiftAssetAction to be able to see the Scripted asset action in Editor.
 	UFUNCTION(CallInEditor)
-	void TestFunction();
+	void DuplicateAsset(int32 NumOfDuplicates);
 	
 #pragma endregion 	
 };

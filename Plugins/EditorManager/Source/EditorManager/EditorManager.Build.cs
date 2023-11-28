@@ -27,6 +27,7 @@ public class EditorManager : ModuleRules
 			{
 				"Core", 
 				"Blutility",
+				"EditorScriptingUtilities",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,7 +39,8 @@ public class EditorManager : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore",
+				"SlateCore", 
+				
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
